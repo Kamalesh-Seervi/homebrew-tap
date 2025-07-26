@@ -5,21 +5,21 @@
 class FossaNx < Formula
   desc "High-performance FOSSA license scanning for NX monorepos"
   homepage "https://github.com/kamalesh-seervi/fossa-nx"
-  version "1.1.1"
+  version "1.2.1"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/Kamalesh-Seervi/fossa-nx/releases/download/v1.1.1/fossa-nx_1.1.1_Darwin_x86_64.tar.gz"
-      sha256 "2cee00d2dd9c68154d7d69a288d93bfb024d072ec6900a5e6d05ae31badfbb73"
+      url "https://github.com/Kamalesh-Seervi/fossa-nx/releases/download/v1.2.1/fossa-nx_1.2.1_Darwin_x86_64.tar.gz"
+      sha256 "74e78fa7c009dc89e3698482c0c35cc2e326b521e7acff473b6e75fa2e975c35"
 
       def install
         bin.install "fossa-nx"
       end
     end
     on_arm do
-      url "https://github.com/Kamalesh-Seervi/fossa-nx/releases/download/v1.1.1/fossa-nx_1.1.1_Darwin_arm64.tar.gz"
-      sha256 "885f603688ed0277339245072fbf04bd577d7c58dbc8f60dd6ea84905c64303d"
+      url "https://github.com/Kamalesh-Seervi/fossa-nx/releases/download/v1.2.1/fossa-nx_1.2.1_Darwin_arm64.tar.gz"
+      sha256 "31b4ac76fdcf5ebc7fe3da9063de195da9b72649ccd96e8cd92ce0d380e4ed56"
 
       def install
         bin.install "fossa-nx"
@@ -30,8 +30,8 @@ class FossaNx < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/Kamalesh-Seervi/fossa-nx/releases/download/v1.1.1/fossa-nx_1.1.1_Linux_x86_64.tar.gz"
-        sha256 "7ae2e3857edfac817152fca9ca54a4240a2098ccc5076d13b8e9fa800c9ac3d3"
+        url "https://github.com/Kamalesh-Seervi/fossa-nx/releases/download/v1.2.1/fossa-nx_1.2.1_Linux_x86_64.tar.gz"
+        sha256 "dd94f55f67995d3184554eee7a90949642404fc4ee88911141ad7ba1e5c7ed45"
 
         def install
           bin.install "fossa-nx"
@@ -40,8 +40,8 @@ class FossaNx < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/Kamalesh-Seervi/fossa-nx/releases/download/v1.1.1/fossa-nx_1.1.1_Linux_arm64.tar.gz"
-        sha256 "01d9fc4dc20a9c1a8a78eb086de20e008dae621563a60686ff6f9fb75f84a44f"
+        url "https://github.com/Kamalesh-Seervi/fossa-nx/releases/download/v1.2.1/fossa-nx_1.2.1_Linux_arm64.tar.gz"
+        sha256 "9e4de81d130d99d8c761460d8d94e175fd7e6b4967b1f18fdf50059f06cd1b34"
 
         def install
           bin.install "fossa-nx"
